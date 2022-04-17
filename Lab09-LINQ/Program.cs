@@ -11,7 +11,7 @@ namespace Lab09_LINQ
     {
         static void Main(string[] args)
         {
-            string path = @"../../../data.json";
+            string path = "../../../data.json";
             string read = File.ReadAllText(path);
 
             var jsonFile = JsonConvert.DeserializeObject<AllFeatures>(read);
